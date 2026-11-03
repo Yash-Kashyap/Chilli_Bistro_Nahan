@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Chilli Bistro, Nahan | Best Cafe on Mall Road – Burgers, Pizza &amp; Full Menu</title>
+<meta name="description" content="Chilli Bistro, The Mall Road, Nahan (HP) – the best cafe in Nahan for burgers, pizza, Chinese, tandoor and shakes. See the full Chilli Bistro Nahan menu with prices, order on WhatsApp in two taps and book a table. Open 11 am – 10:30 pm.">
+<meta name="theme-color" content="#1A1614">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#1A1614;color:#1A1614;font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:17px;line-height:1.62;letter-spacing:-.01em;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+*{box-sizing:border-box}
+input,select,textarea,button{font:inherit}
+a{color:#D7282F}
+a:hover{color:#A81E24}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Chilli Bistro","servesCuisine":["Burgers","Pizza","Chinese","North Indian","Cafe"],"address":{"@type":"PostalAddress","streetAddress":"Plot No. 24, The Mall Rd, Amarpur","addressLocality":"Nahan","addressRegion":"Himachal Pradesh","postalCode":"173001","addressCountry":"IN"},"telephone":"+91-7018100687","openingHours":"Mo-Su 11:00-22:30","priceRange":"₹₹","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"143"}}</script>
+</helmet>
+
+<div style="background:#1A1614;min-height:100vh;overflow-x:clip">
+
+<header style="position:sticky;top:0;z-index:60;background:#1A1614;border-bottom:1px solid rgba(255,245,230,.12)">
+  <div style="max-width:1280px;margin:0 auto;height:64px;padding:0 16px;display:flex;align-items:center;gap:12px">
+    <a href="#top" onClick="{{ goTop }}" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:#FFF5E6;min-height:44px">
+      <span style="display:inline-block;width:12px;height:24px;background:#D7282F;border-radius:50% 50% 50% 50% / 35% 35% 65% 65%;transform:rotate(22deg);border-top:5px solid #3FA34D"></span>
+      <span style="display:flex;flex-direction:column;line-height:.8">
+        <span style="font:700 27px/0.9 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;color:#FFF5E6">Chilli</span>
+        <span style="font:700 11px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.32em;color:#FFC531;margin-top:2px">BISTRO</span>
+      </span>
+    </a>
+    <sc-if value="{{ wide }}" hint-placeholder-val="{{ false }}">
+      <nav style="display:flex;gap:4px;margin-left:24px">
+        <sc-for list="{{ navLinks }}" as="n" hint-placeholder-count="5">
+          <a href="#" onClick="{{ n.go }}" style="color:#FFF5E6;text-decoration:none;font:600 15px/1 'Plus Jakarta Sans',sans-serif;padding:14px 12px;border-radius:999px" style-hover="background:rgba(255,245,230,.08);color:#FFC531">{{ n.label }}</a>
+        </sc-for>
+      </nav>
+    </sc-if>
+    <div style="flex:1"></div>
+    <div style="display:flex;align-items:center;gap:8px;height:34px;padding:0 12px;border-radius:999px;border:1px solid rgba(255,245,230,.2);color:#FFF5E6;font:600 13px/1 'Plus Jakarta Sans',sans-serif;white-space:nowrap">
+      <span style="width:8px;height:8px;border-radius:50%;background:{{ st.dot }};box-shadow:0 0 0 3px {{ st.ring }}"></span>
+      <span>{{ st.label }}</span>
+      <sc-if value="{{ wide }}" hint-placeholder-val="{{ false }}"><span style="opacity:.7;font-weight:500">· {{ st.sub }}</span></sc-if>
+    </div>
+    <a href="tel:+917018100687" style="display:flex;align-items:center;justify-content:center;gap:6px;height:44px;min-width:44px;padding:0 16px;border-radius:999px;background:#FFC531;color:#1A1614;text-decoration:none;font:700 15px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#FFD65E;color:#1A1614">Call</a>
+  </div>
+</header>
+
+<section id="top" data-screen-label="01 Hero" style="position:relative;background:#1A1614;color:#FFF5E6;overflow:hidden">
+  <div style="max-width:1280px;margin:0 auto;padding:22px 16px 40px;position:relative">
+    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.78);padding-bottom:14px;border-bottom:1px solid rgba(255,245,230,.14)">
+      <span>THE MALL ROAD · NAHAN · HP 173001</span>
+      <span>DAILY 11:00 AM — 10:30 PM</span>
+    </div>
+
+    <sc-if value="{{ wide }}" hint-placeholder-val="{{ false }}">
+      <div style="position:absolute;right:calc(-1 * (max(0px,(100vw - 1280px) / 2) + 16px) - min(180px,14vw));top:90px;width:min(620px,50vw);aspect-ratio:1;border-radius:50%;background:#D7282F"></div>
+      <img src="img/cut/burger.png" alt="Chilli Bistro CB Special burger with melted cheese" style="position:absolute;right:calc(-1 * (max(0px,(100vw - 1280px) / 2) + 18px));top:clamp(150px,13vw,190px);width:min(600px,46vw);z-index:2;filter:drop-shadow(0 30px 40px rgba(0,0,0,.45))">
+      <div style="position:absolute;right:24px;top:clamp(330px,30vw,440px);pointer-events:none;z-index:3;width:118px;height:118px;border-radius:50%;background:#FFC531;color:#1A1614;display:flex;align-items:center;justify-content:center;text-align:center;font:700 24px/0.9 'Clash Display','Plus Jakarta Sans',sans-serif;transform:rotate(-14deg);box-shadow:0 0 0 4px #1A1614">Crave<br>it!</div>
+    </sc-if>
+
+    <h1 style="position:relative;z-index:1;margin:22px 0 0;font:700 clamp(3.5rem,7vw,6.5rem)/1.02 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.035em;color:#FFF5E6;max-width:1000px;text-wrap:balance">Flavours you'll <span style="color:#FFC531">crave,</span> on Mall Road.</h1>
+
+    <sc-if value="{{ narrow }}" hint-placeholder-val="{{ true }}">
+      <div style="position:relative;height:300px;margin:-64px -16px 0 0;z-index:2">
+        <div style="position:absolute;right:-90px;top:30px;width:300px;height:300px;border-radius:50%;background:#D7282F"></div>
+        <img src="img/cut/burger.png" alt="Chilli Bistro CB Special burger with melted cheese" style="position:absolute;right:0;top:44px;width:min(84vw,360px);filter:drop-shadow(0 20px 26px rgba(0,0,0,.5))">
+        <div style="position:absolute;left:4px;top:96px;width:86px;height:86px;border-radius:50%;background:#FFC531;color:#1A1614;display:flex;align-items:center;justify-content:center;text-align:center;font:700 19px/0.9 'Clash Display','Plus Jakarta Sans',sans-serif;transform:rotate(-14deg);box-shadow:0 0 0 4px #1A1614">Crave<br>it!</div>
+      </div>
+    </sc-if>
+
+    <div style="position:relative;z-index:3;max-width:{{ heroW }};margin-top:22px">
+      <p style="margin:0 0 22px;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;color:rgba(255,245,230,.9);text-wrap:pretty">Burgers, bites and the best hangout spot in Nahan. Dosto ke saath, Mall Road pe.</p>
+      <div style="display:grid;gap:10px">
+        <button onClick="{{ heroOrder }}" style="height:60px;border:0;border-radius:18px;background:#FFC531;color:#1A1614;font:700 21px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px" style-hover="background:#FFD65E" style-active="transform:scale(.98)"><span style="width:10px;height:10px;border-radius:50%;background:#1F9D55"></span>Order on WhatsApp</button>
+        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Chilli+Bistro+Mall+Road+Nahan" target="_blank" rel="noopener" style="height:60px;border-radius:18px;border:1.5px solid rgba(255,245,230,.55);color:#FFF5E6;text-decoration:none;font:700 19px/1 'Clash Display','Plus Jakarta Sans',sans-serif;display:flex;align-items:center;justify-content:center" style-hover="background:rgba(255,245,230,.08);color:#FFF5E6">Get Directions</a>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:16px;font:500 14px/1.3 'Plus Jakarta Sans',sans-serif;color:rgba(255,245,230,.9)">
+        <span style="color:#FFC531;letter-spacing:2px">★★★★★</span><strong style="font-weight:700">4.6</strong><span style="opacity:.5">·</span><span>143 Google reviews</span><span style="opacity:.5">·</span><span>Nahan, HP</span>
+      </div>
+      <div style="margin-top:18px;display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;border:1px dashed rgba(255,197,49,.6);font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#FFC531">NEW → ORDER IN 2 TAPS. NO BUSY LINES AT RUSH HOUR.</div>
+    </div>
+    <sc-if value="{{ wide }}" hint-placeholder-val="{{ false }}"><div style="height:60px"></div></sc-if>
+  </div>
+</section>
+
+<section id="signatures" data-screen-label="02 Signatures" style="background:#1A1614;color:#FFF5E6;padding:40px 0 64px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;align-items:center;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.75);padding:14px 0;border-top:1px solid rgba(255,245,230,.14)">
+      <span>02 — SIGNATURES</span><span>SWIPE →</span>
+    </div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px" data-reveal="0">
+      <h2 style="margin:6px 0 0;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em;text-wrap:balance">The ones everyone orders.</h2>
+      <div style="display:flex;gap:8px;flex-shrink:0">
+        <button onClick="{{ sigPrev }}" aria-label="Previous" style="width:48px;height:48px;border-radius:50%;border:1.5px solid rgba(255,245,230,.4);background:transparent;color:#FFF5E6;font:700 20px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#FFF5E6;color:#1A1614">←</button>
+        <button onClick="{{ sigNext }}" aria-label="Next" style="width:48px;height:48px;border-radius:50%;border:1.5px solid rgba(255,245,230,.4);background:transparent;color:#FFF5E6;font:700 20px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#FFF5E6;color:#1A1614">→</button>
+      </div>
+    </div>
+  </div>
+  <div id="sig-scroller" style="display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:70px max(16px,calc((100vw - 1248px)/2)) 12px;scroll-padding-left:max(16px,calc((100vw - 1248px)/2))">
+    <sc-for list="{{ sigs }}" as="s" hint-placeholder-count="4">
+      <article style="flex:0 0 clamp(268px,76vw,330px);scroll-snap-align:start;position:relative;background:#D7282F;border-radius:26px;padding:0 18px 18px;display:flex;flex-direction:column">
+        <div style="position:relative;height:170px">
+          <img src="{{ s.img }}" alt="{{ s.name }} at Chilli Bistro Nahan" loading="lazy" style="position:absolute;left:50%;top:-62px;transform:translateX(-50%);width:108%;height:230px;object-fit:contain;filter:drop-shadow(0 16px 18px rgba(0,0,0,.35))">
+          <sc-if value="{{ s.hasTag }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;right:-6px;top:-44px;width:78px;height:78px;border-radius:50%;background:#FFC531;color:#1A1614;display:flex;align-items:center;justify-content:center;text-align:center;font:700 15px/0.9 'Clash Display','Plus Jakarta Sans',sans-serif;transform:rotate(10deg);box-shadow:0 0 0 3px #1A1614;padding:6px">{{ s.tag }}</div>
+          </sc-if>
+          <sc-if value="{{ s.hasSticker }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;left:-4px;bottom:6px;background:#1A1614;color:#FFC531;padding:6px 10px;border-radius:8px;font:700 14px/1 'Clash Display','Plus Jakarta Sans',sans-serif;transform:rotate(-6deg)">{{ s.sticker }}</div>
+          </sc-if>
+        </div>
+        <div style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.85);padding-bottom:8px;border-bottom:1px solid rgba(255,245,230,.3)">{{ s.meta }}</div>
+        <h3 style="margin:10px 0 8px;font:700 27px/0.98 'Clash Display','Plus Jakarta Sans',sans-serif;color:#FFF5E6;letter-spacing:-.01em;min-height:54px">{{ s.name }}</h3>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span title="{{ s.vegLabel }}" style="width:18px;height:18px;border:2px solid {{ s.vegColor }};border-radius:3px;background:#fff;display:inline-flex;align-items:center;justify-content:center"><span style="width:8px;height:8px;border-radius:50%;background:{{ s.vegColor }}"></span></span>
+          <span style="display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 9px;border-radius:999px;background:#FFF5E6;color:#1A1614;font:600 12.5px/1 'Plus Jakarta Sans',sans-serif">
+            <sc-for list="{{ s.chillies }}" as="c" hint-placeholder-count="1"><span style="display:inline-block;width:6px;height:12px;background:#D7282F;border-radius:50% 50% 50% 50% / 35% 35% 65% 65%;transform:rotate(25deg);border-top:3px solid #2E8B3A"></span></sc-for>
+            {{ s.spiceLabel }}
+          </span>
+          <span style="font:500 13px/1 'Plus Jakarta Sans',sans-serif;color:rgba(255,245,230,.85)">{{ s.variant }}</span>
+        </div>
+        <div style="flex:1"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px">
+          <span style="font:700 34px/1 'Clash Display','Plus Jakarta Sans',sans-serif;color:#FFF5E6">₹{{ s.price }}</span>
+          <sc-if value="{{ s.notInCart }}" hint-placeholder-val="{{ true }}">
+            <button onClick="{{ s.add }}" style="height:48px;padding:0 22px;border:0;border-radius:14px;background:#FFC531;color:#1A1614;font:700 18px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#FFD65E" style-active="transform:scale(.96)">Add +</button>
+          </sc-if>
+          <sc-if value="{{ s.inCart }}" hint-placeholder-val="{{ false }}">
+            <div style="display:flex;align-items:center;background:#1A1614;border-radius:14px;height:48px">
+              <button onClick="{{ s.dec }}" aria-label="Remove one" style="width:46px;height:48px;border:0;background:transparent;color:#FFC531;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">−</button>
+              <span style="min-width:22px;text-align:center;font:700 18px/1 'Clash Display','Plus Jakarta Sans',sans-serif;color:#FFF5E6">{{ s.qty }}</span>
+              <button onClick="{{ s.add }}" aria-label="Add one" style="width:46px;height:48px;border:0;background:transparent;color:#FFC531;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">+</button>
+            </div>
+          </sc-if>
+        </div>
+      </article>
+    </sc-for>
+  </div>
+</section>
+
+<section id="combos" data-screen-label="03 Hangout Combos" style="background:#D7282F;color:#FFF5E6;padding:56px 0 64px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;padding-bottom:14px;border-bottom:1px solid rgba(255,245,230,.35)">
+      <span>03 — HANGOUT COMBOS</span>
+      <sc-if value="{{ showPh }}" hint-placeholder-val="{{ true }}"><span style="background:#FFC531;color:#1A1614;padding:4px 7px;border-radius:4px;letter-spacing:.06em">PLACEHOLDER: COMBO PRICES — CONFIRM WITH OWNER</span></sc-if>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;margin:14px 0 30px" data-reveal="0">
+      <h2 style="margin:0;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">Bring the gang.</h2>
+      <p style="margin:0;max-width:340px;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;color:#FFF5E6">Group plates priced for sharing. Ek order, poori gang sorted.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px">
+      <sc-for list="{{ combos }}" as="c" hint-placeholder-count="3">
+        <article data-reveal="{{ c.delay }}" style="background:#FFF5E6;color:#1A1614;border-radius:26px;padding:20px;display:flex;flex-direction:column;position:relative;overflow:hidden">
+          <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:8px">
+            <div style="display:flex;align-items:flex-end;gap:8px">
+              <span style="font:700 112px/0.72 'Clash Display','Plus Jakarta Sans',sans-serif;color:#D7282F;letter-spacing:-.04em">{{ c.n }}</span>
+              <span style="font:600 13px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;padding-bottom:4px">FRIENDS</span>
+            </div>
+            <sc-if value="{{ c.hasTag }}" hint-placeholder-val="{{ false }}"><span style="background:#1A1614;color:#FFC531;font:700 14px/1 'Clash Display','Plus Jakarta Sans',sans-serif;padding:7px 10px;border-radius:8px;transform:rotate(4deg)">{{ c.tag }}</span></sc-if>
+          </div>
+          <h3 style="margin:18px 0 10px;font:700 28px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ c.name }}</h3>
+          <ul style="margin:0;padding:0;list-style:none;border-top:1px solid rgba(26,22,20,.15)">
+            <sc-for list="{{ c.items }}" as="it" hint-placeholder-count="4">
+              <li style="padding:9px 0;border-bottom:1px solid rgba(26,22,20,.15);font:500 15.5px/1.35 'Plus Jakarta Sans',sans-serif">{{ it }}</li>
+            </sc-for>
+          </ul>
+          <div style="flex:1;min-height:18px"></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+            <div>
+              <div style="font:700 36px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ c.priceL }}</div>
+              <div style="font:500 13px/1.3 'Plus Jakarta Sans',sans-serif;color:#5E534C">worth <s>{{ c.worthL }}</s> · save {{ c.saveL }}</div>
+            </div>
+            <sc-if value="{{ c.notInCart }}" hint-placeholder-val="{{ true }}">
+              <button onClick="{{ c.add }}" style="height:52px;padding:0 20px;border:0;border-radius:14px;background:#1A1614;color:#FFC531;font:700 18px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#D7282F;color:#FFF5E6">Add combo</button>
+            </sc-if>
+            <sc-if value="{{ c.inCart }}" hint-placeholder-val="{{ false }}">
+              <div style="display:flex;align-items:center;background:#1A1614;border-radius:14px;height:52px">
+                <button onClick="{{ c.dec }}" aria-label="Remove one" style="width:48px;height:52px;border:0;background:transparent;color:#FFC531;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">−</button>
+                <span style="min-width:22px;text-align:center;font:700 18px/1 'Clash Display','Plus Jakarta Sans',sans-serif;color:#FFF5E6">{{ c.qty }}</span>
+                <button onClick="{{ c.add }}" aria-label="Add one" style="width:48px;height:52px;border:0;background:transparent;color:#FFC531;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">+</button>
+              </div>
+            </sc-if>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="04 WhatsApp bar" style="background:#FFC531;color:#1A1614;padding:44px 0">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px;display:flex;flex-wrap:wrap;gap:20px 40px;align-items:center;justify-content:space-between">
+    <div style="flex:1 1 420px" data-reveal="0">
+      <div style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px">04 — NO MORE "LINE BUSY HAI"</div>
+      <h2 style="margin:0;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">Rush hour? Skip the call.</h2>
+      <p style="margin:12px 0 0;max-width:520px;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;">Add dishes, tap send. Your order reaches our kitchen on WhatsApp with items, quantity and total — two taps, done.</p>
+    </div>
+    <div style="flex:1 1 320px;display:grid;gap:10px;max-width:460px">
+      <button onClick="{{ heroOrder }}" style="height:72px;border:0;border-radius:20px;background:#1A1614;color:#FFF5E6;font:700 24px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:12px" style-hover="background:#D7282F" style-active="transform:scale(.98)"><span style="width:12px;height:12px;border-radius:50%;background:#25D366"></span>Order on WhatsApp</button>
+      <a href="tel:+917018100687" style="height:48px;display:flex;align-items:center;justify-content:center;gap:6px;color:#1A1614;text-decoration:none;font:600 16px/1 'Plus Jakarta Sans',sans-serif;border-radius:14px;border:1.5px solid rgba(26,22,20,.4)" style-hover="background:rgba(26,22,20,.08);color:#1A1614">Prefer calling? 70181 00687</a>
+    </div>
+  </div>
+</section>
+
+<section id="menu" data-screen-label="05 Full menu" style="background:#FFF5E6;color:#1A1614;padding:56px 0 80px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C;padding-bottom:14px;border-bottom:1px solid rgba(26,22,20,.15)">
+      <span>05 — FULL MENU</span><span>{{ dishCount }} DISHES</span>
+    </div>
+    <h2 data-reveal="0" style="margin:14px 0 6px;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">The full menu.</h2>
+    <p style="margin:0 0 24px;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;max-width:65ch;color:#5E534C;max-width:560px">Continental, Chinese, tandoor, thalis and shakes — sab kuch. Tap Add, then send your order on WhatsApp.</p>
+  </div>
+
+  <sc-if value="{{ narrow }}" hint-placeholder-val="{{ true }}">
+    <div style="max-width:1280px;margin:0 auto;padding:0 16px 14px;display:flex;gap:10px">
+      <input value="{{ q }}" onChange="{{ setQ }}" placeholder="Search burgers, paneer, shakes…" aria-label="Search menu" style="flex:1;min-width:0;height:50px;padding:0 16px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);background:#fff;font-size:16px;color:#1A1614;outline-color:#D7282F">
+      <button onClick="{{ toggleVeg }}" aria-pressed="{{ vegOnly }}" style="height:50px;padding:0 12px;border-radius:14px;border:1.5px solid {{ vegBorder }};background:{{ vegBg }};color:#1A1614;font:700 14px/1 'Plus Jakarta Sans',sans-serif;display:flex;align-items:center;gap:8px;cursor:pointer;white-space:nowrap">
+        <span style="width:36px;height:22px;border-radius:999px;background:{{ vegTrack }};position:relative;flex-shrink:0"><span style="position:absolute;top:3px;left:{{ vegKnob }};width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s"></span></span>Veg only
+      </button>
+    </div>
+    <div style="position:sticky;top:64px;z-index:40;background:#FFF5E6;border-top:1px solid rgba(26,22,20,.12);border-bottom:1px solid rgba(26,22,20,.12)">
+      <div id="tabbar" style="position:relative;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:8px 16px">
+        <sc-for list="{{ tabs }}" as="t" hint-placeholder-count="6">
+          <button id="tab-{{ t.id }}" onClick="{{ t.go }}" style="flex-shrink:0;height:44px;padding:0 16px;border-radius:999px;border:1.5px solid {{ t.border }};background:{{ t.bg }};color:{{ t.fg }};font:700 14.5px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;white-space:nowrap">{{ t.name }}</button>
+        </sc-for>
+      </div>
+    </div>
+  </sc-if>
+
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px;display:grid;grid-template-columns:{{ menuCols }};gap:48px;align-items:start">
+    <sc-if value="{{ wide }}" hint-placeholder-val="{{ false }}">
+      <aside style="position:sticky;top:88px;display:flex;flex-direction:column;gap:12px">
+        <input value="{{ q }}" onChange="{{ setQ }}" placeholder="Search the menu…" aria-label="Search menu" style="height:50px;padding:0 16px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);background:#fff;font-size:16px;color:#1A1614">
+        <button onClick="{{ toggleVeg }}" style="height:50px;padding:0 14px;border-radius:14px;border:1.5px solid {{ vegBorder }};background:{{ vegBg }};color:#1A1614;font:700 15px/1 'Plus Jakarta Sans',sans-serif;display:flex;align-items:center;justify-content:space-between;cursor:pointer">
+          <span style="display:flex;align-items:center;gap:8px"><span style="width:16px;height:16px;border:2px solid #1E8E3E;border-radius:3px;display:inline-flex;align-items:center;justify-content:center"><span style="width:7px;height:7px;border-radius:50%;background:#1E8E3E"></span></span>Veg only</span>
+          <span style="width:40px;height:24px;border-radius:999px;background:{{ vegTrack }};position:relative"><span style="position:absolute;top:4px;left:{{ vegKnob }};width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s"></span></span>
+        </button>
+        <nav style="display:flex;flex-direction:column;border-top:1px solid rgba(26,22,20,.15);margin-top:6px;max-height:calc(100vh - 260px);overflow:auto;scrollbar-width:thin">
+          <sc-for list="{{ tabs }}" as="t" hint-placeholder-count="10">
+            <button onClick="{{ t.go }}" style="display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:0 12px;border:0;border-bottom:1px solid rgba(26,22,20,.1);background:{{ t.sideBg }};color:{{ t.sideFg }};font:700 15.5px/1.2 'Plus Jakarta Sans',sans-serif;text-align:left;cursor:pointer;border-radius:0">
+              <span>{{ t.name }}</span><span style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.7">{{ t.count }}</span>
+            </button>
+          </sc-for>
+        </nav>
+      </aside>
+    </sc-if>
+
+    <div id="menu-list" style="min-width:0">
+      <sc-if value="{{ searching }}" hint-placeholder-val="{{ false }}">
+        <div style="padding-top:20px;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C">{{ resultsL }}</div>
+      </sc-if>
+      <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:48px 0;text-align:center;font:600 18px/1.4 'Plus Jakarta Sans',sans-serif;color:#5E534C">Kuch nahi mila. Try “paneer”, “pizza” or “shake”.</div>
+      </sc-if>
+      <sc-for list="{{ sections }}" as="sec" hint-placeholder-count="2">
+        <div id="cat-{{ sec.id }}" style="padding-top:28px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;border-bottom:2px solid #1A1614;padding-bottom:8px">
+            <h3 style="margin:0;font:700 clamp(30px,4vw,44px)/1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.015em">{{ sec.name }}</h3>
+            <span style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C">{{ sec.count }} ITEMS</span>
+          </div>
+          <sc-for list="{{ sec.subs }}" as="sub" hint-placeholder-count="1">
+            <div style="padding-top:18px">
+              <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px">
+                <h4 style="margin:0;font:600 13px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;text-transform:uppercase;color:#D7282F">{{ sub.name }}</h4>
+                <span style="font:500 14px/1.3 'Plus Jakarta Sans',sans-serif;color:#5E534C">{{ sub.blurb }}</span>
+              </div>
+              <div style="display:grid;grid-template-columns:{{ itemCols }};column-gap:32px">
+                <sc-for list="{{ sub.items }}" as="it" hint-placeholder-count="4">
+                  <div style="padding:14px 0;border-bottom:1px solid rgba(26,22,20,.12);display:flex;flex-direction:column;gap:6px">
+                    <div style="display:flex;gap:10px;align-items:flex-start">
+                      <span title="{{ it.vegLabel }}" style="flex-shrink:0;margin-top:4px;width:16px;height:16px;border:2px solid {{ it.vegColor }};border-radius:3px;display:inline-flex;align-items:center;justify-content:center"><span style="width:7px;height:7px;border-radius:50%;background:{{ it.vegColor }}"></span></span>
+                      <div style="min-width:0;flex:1">
+                        <div style="font:700 17px/1.25 'Plus Jakarta Sans',sans-serif;color:#1A1614">{{ it.name }}</div>
+                        <sc-if value="{{ it.hasDesc }}" hint-placeholder-val="{{ true }}"><div style="font:400 15px/1.4 'Plus Jakarta Sans',sans-serif;color:#5E534C;margin-top:2px;text-wrap:pretty">{{ it.desc }}</div></sc-if>
+                        <sc-if value="{{ it.hasSpice }}" hint-placeholder-val="{{ false }}">
+                          <div style="display:inline-flex;align-items:center;gap:4px;margin-top:6px;height:22px;padding:0 8px;border-radius:999px;background:#FBE3DA;font:600 12.5px/1 'Plus Jakarta Sans',sans-serif;color:#8E1B20">
+                            <sc-for list="{{ it.chillies }}" as="c" hint-placeholder-count="1"><span style="display:inline-block;width:5px;height:11px;background:#D7282F;border-radius:50% 50% 50% 50% / 35% 35% 65% 65%;transform:rotate(25deg);border-top:3px solid #2E8B3A"></span></sc-for>
+                            <span style="margin-left:3px">{{ it.spiceLabel }}</span>
+                          </div>
+                        </sc-if>
+                      </div>
+                    </div>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px 16px;padding-left:26px">
+                      <sc-for list="{{ it.vars }}" as="v" hint-placeholder-count="1">
+                        <div style="display:flex;align-items:center;gap:10px;flex:1 1 140px;justify-content:space-between;max-width:260px">
+                          <span style="font:700 16px/1.1 'Plus Jakarta Sans',sans-serif;color:#1A1614;white-space:nowrap"><span style="font-weight:500;color:#5E534C">{{ v.label }}</span> ₹{{ v.price }}</span>
+                          <sc-if value="{{ v.notInCart }}" hint-placeholder-val="{{ true }}">
+                            <button onClick="{{ v.add }}" style="height:44px;min-width:76px;padding:0 14px;border-radius:12px;border:1.5px solid #1A1614;background:#fff;color:#1A1614;font:700 16px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#FFC531" style-active="transform:scale(.96)">Add +</button>
+                          </sc-if>
+                          <sc-if value="{{ v.inCart }}" hint-placeholder-val="{{ false }}">
+                            <div style="display:flex;align-items:center;background:#D7282F;border-radius:12px;height:44px">
+                              <button onClick="{{ v.dec }}" aria-label="Remove one" style="width:44px;height:44px;border:0;background:transparent;color:#FFF5E6;font:800 20px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">−</button>
+                              <span style="min-width:18px;text-align:center;font:700 16px/1 'Clash Display','Plus Jakarta Sans',sans-serif;color:#FFF5E6">{{ v.qty }}</span>
+                              <button onClick="{{ v.add }}" aria-label="Add one" style="width:44px;height:44px;border:0;background:transparent;color:#FFF5E6;font:800 20px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">+</button>
+                            </div>
+                          </sc-if>
+                        </div>
+                      </sc-for>
+                    </div>
+                  </div>
+                </sc-for>
+              </div>
+              <sc-if value="{{ sub.canCollapse }}" hint-placeholder-val="{{ false }}">
+                <button onClick="{{ sub.toggle }}" style="margin-top:12px;width:100%;height:48px;border-radius:14px;border:1.5px dashed rgba(26,22,20,.35);background:transparent;color:#1A1614;font:700 15px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#fff">{{ sub.moreL }}</button>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </sc-for>
+      <sc-if value="{{ hasNext }}" hint-placeholder-val="{{ true }}">
+        <button onClick="{{ goNext }}" style="margin-top:28px;width:100%;height:56px;border-radius:16px;border:0;background:#1A1614;color:#FFC531;font:700 18px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer" style-active="transform:scale(.98)">{{ nextL }}</button>
+      </sc-if>
+      <p style="margin:28px 0 0;font:600 12px/1.5 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C">PRICES IN ₹, INCLUSIVE OF TAXES AS PER PRINTED MENU · SOME ITEMS SUBJECT TO AVAILABILITY</p>
+    </div>
+  </div>
+</section>
+
+<section id="book" data-screen-label="06 Book a table" style="background:#FFF5E6;color:#1A1614;padding:0 0 80px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C;padding:14px 0;border-top:1px solid rgba(26,22,20,.15)">
+      <span>06 — TABLES &amp; PARTIES</span><span>CONFIRMED ON WHATSAPP</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:20px;align-items:stretch;margin-top:10px">
+      <div data-reveal="0" style="border:1.5px solid #1A1614;border-radius:26px;padding:22px;background:#fff">
+        <h2 style="margin:0;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">Book a table.</h2>
+        <p style="margin:8px 0 18px;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;max-width:65ch;color:#5E534C">Weekend evenings fill up fast. Reserve in 20 seconds.</p>
+        <div style="display:grid;gap:12px">
+          <label style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif">Name<input value="{{ bName }}" onChange="{{ setBName }}" placeholder="Your name" style="height:52px;padding:0 14px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);font-size:16px;background:#FFF5E6;color:#1A1614"></label>
+          <label style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif">Phone<input value="{{ bPhone }}" onChange="{{ setBPhone }}" type="tel" inputmode="numeric" placeholder="98XXX XXXXX" style="height:52px;padding:0 14px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);font-size:16px;background:#FFF5E6;color:#1A1614"></label>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            <label style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif;min-width:0">Date<input type="date" value="{{ bDate }}" min="{{ todayIso }}" onChange="{{ setBDate }}" style="height:52px;padding:0 10px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);font-size:16px;background:#FFF5E6;color:#1A1614;min-width:0;width:100%"></label>
+            <label style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif;min-width:0">Time<select value="{{ bTime }}" onChange="{{ setBTime }}" style="height:52px;padding:0 10px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);font-size:16px;background:#FFF5E6;color:#1A1614;width:100%">
+              <sc-for list="{{ slots }}" as="sl" hint-placeholder-count="3"><option value="{{ sl }}">{{ sl }}</option></sc-for>
+            </select></label>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 0">
+            <span style="font:600 14px/1 'Plus Jakarta Sans',sans-serif">Guests</span>
+            <div style="display:flex;align-items:center;gap:6px;border:1.5px solid rgba(26,22,20,.25);border-radius:14px;background:#FFF5E6">
+              <button onClick="{{ bGuestsDec }}" aria-label="Fewer guests" style="width:48px;height:48px;border:0;background:transparent;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">−</button>
+              <span style="min-width:28px;text-align:center;font:700 20px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ bGuests }}</span>
+              <button onClick="{{ bGuestsInc }}" aria-label="More guests" style="width:48px;height:48px;border:0;background:transparent;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">+</button>
+            </div>
+          </div>
+          <sc-if value="{{ bHasErr }}" hint-placeholder-val="{{ false }}"><div style="font:600 14px/1.3 'Plus Jakarta Sans',sans-serif;color:#B3261E">{{ bErr }}</div></sc-if>
+          <button onClick="{{ sendBooking }}" style="height:58px;border:0;border-radius:16px;background:#1A1614;color:#FFF5E6;font:700 20px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px" style-hover="background:#D7282F"><span style="width:10px;height:10px;border-radius:50%;background:#25D366"></span>Send booking on WhatsApp</button>
+          <p style="margin:0;font:500 14px/1.4 'Plus Jakarta Sans',sans-serif;color:#5E534C">Birthday or group of 10+? Use the party card — we'll plan decor, cake and a set menu.</p>
+        </div>
+      </div>
+
+      <div data-reveal="120" style="position:relative;border-radius:26px;padding:22px;background:#D7282F;color:#FFF5E6;overflow:hidden;display:flex;flex-direction:column">
+        <div style="position:absolute;right:16px;top:16px;background:#FFC531;color:#1A1614;font:700 15px/1 'Clash Display','Plus Jakarta Sans',sans-serif;padding:8px 12px;border-radius:10px;transform:rotate(6deg)">Extra cheesy cake?</div>
+        <div style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;margin-top:6px">BIRTHDAYS · FAREWELLS · GROUP PARTIES</div>
+        <h2 style="margin:10px 0 8px;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">Plan your party here.</h2>
+        <p style="margin:0 0 18px;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;max-width:65ch;">Tell us the headcount and date. We'll WhatsApp you packages within the hour.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px">
+          <sc-for list="{{ occasions }}" as="o" hint-placeholder-count="4">
+            <button onClick="{{ o.pick }}" style="height:44px;padding:0 14px;border-radius:999px;border:1.5px solid #FFF5E6;background:{{ o.bg }};color:{{ o.fg }};font:700 14.5px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer">{{ o.label }}</button>
+          </sc-for>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif">Guests
+            <div style="display:flex;align-items:center;justify-content:space-between;border-radius:14px;background:#FFF5E6;color:#1A1614;height:52px">
+              <button onClick="{{ pGuestsDec }}" aria-label="Fewer guests" style="width:44px;height:52px;border:0;background:transparent;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">−</button>
+              <span style="font:700 20px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ pGuests }}</span>
+              <button onClick="{{ pGuestsInc }}" aria-label="More guests" style="width:44px;height:52px;border:0;background:transparent;font:800 22px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">+</button>
+            </div>
+          </div>
+          <label style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif;min-width:0">Date<input type="date" value="{{ pDate }}" min="{{ todayIso }}" onChange="{{ setPDate }}" style="height:52px;padding:0 10px;border-radius:14px;border:0;font-size:16px;background:#FFF5E6;color:#1A1614;width:100%;min-width:0"></label>
+        </div>
+        <label style="display:grid;gap:6px;font:600 14px/1 'Plus Jakarta Sans',sans-serif;margin-top:10px">Your name<input value="{{ pName }}" onChange="{{ setPName }}" placeholder="Name" style="height:52px;padding:0 14px;border-radius:14px;border:0;font-size:16px;background:#FFF5E6;color:#1A1614"></label>
+        <div style="flex:1;min-height:16px"></div>
+        <button onClick="{{ sendParty }}" style="height:58px;margin-top:14px;border:0;border-radius:16px;background:#FFC531;color:#1A1614;font:700 20px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#FFD65E">Send party enquiry on WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" data-screen-label="07 Gallery" style="background:#1A1614;color:#FFF5E6;padding:56px 0 72px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.75);padding-bottom:14px;border-bottom:1px solid rgba(255,245,230,.14)">
+      <span>07 — AMBIENCE</span>
+      <sc-if value="{{ showPh }}" hint-placeholder-val="{{ true }}"><span style="background:#FFC531;color:#1A1614;padding:4px 7px;border-radius:4px;letter-spacing:.06em">PLACEHOLDER: SWAP STRIPED TILES FOR CAFE PHOTOS</span></sc-if>
+    </div>
+    <h2 style="position:relative;z-index:2;margin:14px 0 0;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em;pointer-events:none">Mall Road<br>ka <span style="color:#FFC531">adda.</span></h2>
+    <div style="position:relative;z-index:1;display:grid;grid-template-columns:{{ galCols }};grid-auto-rows:{{ galRow }};grid-auto-flow:dense;gap:10px;margin-top:clamp(-40px,-3vw,-14px)">
+      <div style="grid-column:{{ galA }};grid-row:span 2;border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><div style="height:100%;border-radius:14px;background:repeating-linear-gradient(135deg,#2B2421 0 10px,#241E1B 10px 20px);display:flex;align-items:flex-end;padding:14px;font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.8)">AMBIENCE PHOTO — corner booth under warm evening lights</div></div>
+      <div style="grid-row:span 2;border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><div style="height:100%;border-radius:14px;background:#D7282F;display:flex;align-items:center;justify-content:center;overflow:hidden"><img src="img/cut/thali.png" alt="Deluxe thali at Chilli Bistro" loading="lazy" style="width:112%;max-width:none"></div></div>
+      <div style="border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><img src="img/pasta.jpg" alt="Penne in creamy sauce" loading="lazy" style="width:100%;height:100%;object-fit:cover;border-radius:14px;display:block"></div>
+      <div style="border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><div style="height:100%;border-radius:14px;background:repeating-linear-gradient(135deg,#2B2421 0 10px,#241E1B 10px 20px);display:flex;align-items:flex-end;padding:12px;font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.8)">CANDID — friends sharing fries</div></div>
+      <div style="grid-column:span 2;border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><div style="height:100%;border-radius:14px;background:repeating-linear-gradient(135deg,#2B2421 0 10px,#241E1B 10px 20px);display:flex;align-items:flex-end;padding:14px;font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.8)">STOREFRONT — Chilli Bistro on Mall Road at dusk</div></div>
+      <div style="border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><img src="img/wrap.jpg" alt="Chilli paneer wrap cut in half" loading="lazy" style="width:100%;height:100%;object-fit:cover;border-radius:14px;display:block"></div>
+      <div style="border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><div style="height:100%;border-radius:14px;background:#FFC531;display:flex;align-items:center;justify-content:center;overflow:hidden"><img src="img/cut/nuggets.png" alt="Chicken nuggets with dip" loading="lazy" style="width:96%"></div></div>
+      <div style="grid-column:span 2;border:1px solid rgba(255,245,230,.25);border-radius:20px;padding:6px"><div style="height:100%;border-radius:14px;background:repeating-linear-gradient(135deg,#2B2421 0 10px,#241E1B 10px 20px);display:flex;align-items:flex-end;padding:14px;font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.8)">PARTY — birthday table set-up with balloons</div></div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:28px">
+      <a href="https://instagram.com/chillibistro_nahan" target="_blank" rel="noopener" style="height:56px;padding:0 24px;border-radius:16px;background:#FFF5E6;color:#1A1614;text-decoration:none;display:flex;align-items:center;gap:10px;font:700 19px/1 'Clash Display','Plus Jakarta Sans',sans-serif" style-hover="background:#FFC531;color:#1A1614"><span style="width:20px;height:20px;border:2.5px solid #1A1614;border-radius:6px;display:inline-flex;align-items:center;justify-content:center"><span style="width:7px;height:7px;border:2px solid #1A1614;border-radius:50%"></span></span>Follow @chillibistro_nahan</a>
+      <span style="font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.75)">480+ NAHAN FOODIES ALREADY DO</span>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" data-screen-label="08 Reviews" style="background:#FFF5E6;color:#1A1614;padding:56px 0 72px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C;padding-bottom:14px;border-bottom:1px solid rgba(26,22,20,.15)">
+      <span>08 — REVIEWS</span>
+      <sc-if value="{{ showPh }}" hint-placeholder-val="{{ true }}"><span style="background:#FFC531;color:#1A1614;padding:4px 7px;border-radius:4px;letter-spacing:.06em">PLACEHOLDER: SAMPLE REVIEWS — PASTE REAL GOOGLE REVIEWS</span></sc-if>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px;margin:16px 0 28px" data-reveal="0">
+      <div style="display:flex;align-items:flex-end;gap:16px">
+        <span style="font:700 clamp(96px,16vw,180px)/0.78 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.04em;color:#D7282F">4.6</span>
+        <div style="padding-bottom:6px">
+          <div style="color:#E8A400;font-size:24px;letter-spacing:3px">★★★★★</div>
+          <div style="font:700 17px/1.3 'Plus Jakarta Sans',sans-serif">143 Google reviews</div>
+          <div style="font:600 12px/1.3 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C;letter-spacing:.06em">NAHAN SAYS “EK NUMBER”</div>
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Chilli+Bistro+Mall+Road+Nahan" target="_blank" rel="noopener" style="height:52px;padding:0 20px;border-radius:14px;border:1.5px solid #1A1614;color:#1A1614;text-decoration:none;display:flex;align-items:center;font:700 16px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#1A1614;color:#FFF5E6">Read all reviews on Google →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px">
+      <article data-reveal="0" style="background:#fff;border:1px solid rgba(26,22,20,.14);border-radius:20px;padding:20px">
+        <div style="display:flex;align-items:center;gap:12px">
+          <span style="width:44px;height:44px;border-radius:50%;background:#7B4FA0;color:#fff;display:flex;align-items:center;justify-content:center;font:700 18px/1 'Plus Jakarta Sans',sans-serif">A</span>
+          <div><div style="font:700 16px/1.2 'Plus Jakarta Sans',sans-serif">Aditi Sharma</div><div style="font:400 13px/1.3 'Plus Jakarta Sans',sans-serif;color:#5E534C">Local Guide · 38 reviews</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;margin:12px 0 8px"><span style="color:#E8A400;letter-spacing:2px">★★★★★</span><span style="font:400 13px/1 'Plus Jakarta Sans',sans-serif;color:#5E534C">3 weeks ago</span></div>
+        <p style="margin:0;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;max-width:65ch;text-wrap:pretty">Best burgers in Nahan, hands down. The CB Special non-veg burger is too good and the cold coffee is proper thick. Our college gang's fixed adda now.</p>
+      </article>
+      <article data-reveal="100" style="background:#fff;border:1px solid rgba(26,22,20,.14);border-radius:20px;padding:20px">
+        <div style="display:flex;align-items:center;gap:12px">
+          <span style="width:44px;height:44px;border-radius:50%;background:#1F7A6D;color:#fff;display:flex;align-items:center;justify-content:center;font:700 18px/1 'Plus Jakarta Sans',sans-serif">R</span>
+          <div><div style="font:700 16px/1.2 'Plus Jakarta Sans',sans-serif">Rohit Thakur</div><div style="font:400 13px/1.3 'Plus Jakarta Sans',sans-serif;color:#5E534C">12 reviews</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;margin:12px 0 8px"><span style="color:#E8A400;letter-spacing:2px">★★★★★</span><span style="font:400 13px/1 'Plus Jakarta Sans',sans-serif;color:#5E534C">1 month ago</span></div>
+        <p style="margin:0;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;max-width:65ch;text-wrap:pretty">Came with family on Sunday. Chilli paneer and the deluxe thali were full value for money. Staff is friendly and the Mall Road evening vibe is lovely.</p>
+      </article>
+      <article data-reveal="200" style="background:#fff;border:1px solid rgba(26,22,20,.14);border-radius:20px;padding:20px">
+        <div style="display:flex;align-items:center;gap:12px">
+          <span style="width:44px;height:44px;border-radius:50%;background:#C25B12;color:#fff;display:flex;align-items:center;justify-content:center;font:700 18px/1 'Plus Jakarta Sans',sans-serif">K</span>
+          <div><div style="font:700 16px/1.2 'Plus Jakarta Sans',sans-serif">Karan Verma</div><div style="font:400 13px/1.3 'Plus Jakarta Sans',sans-serif;color:#5E534C">Local Guide · 64 reviews</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;margin:12px 0 8px"><span style="color:#E8A400;letter-spacing:2px">★★★★<span style="color:#D9D2CB">★</span></span><span style="font:400 13px/1 'Plus Jakarta Sans',sans-serif;color:#5E534C">2 months ago</span></div>
+        <p style="margin:0;font:400 17px/1.62 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;max-width:65ch;text-wrap:pretty">Stopped here on our way to Paonta Sahib. Peri peri chicken pizza was fresh and came out quick. Bit crowded on weekends, but worth the wait.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="visit" data-screen-label="09 Visit us" style="background:#FFF5E6;color:#1A1614;padding:0 0 80px">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;justify-content:space-between;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5E534C;padding:14px 0;border-top:1px solid rgba(26,22,20,.15)">
+      <span>09 — VISIT US</span><span>30.5590° N, 77.2955° E</span>
+    </div>
+    <h2 data-reveal="0" style="margin:8px 0 24px;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">Find us on Mall Road.</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:20px;align-items:start">
+      <div style="border:1.5px solid #1A1614;border-radius:24px;padding:6px;background:#fff">
+        <iframe title="Chilli Bistro on Google Maps" src="https://maps.google.com/maps?q=Chilli%20Bistro%2C%20The%20Mall%20Road%2C%20Nahan%2C%20Himachal%20Pradesh&amp;z=16&amp;output=embed" loading="lazy" style="width:100%;height:360px;border:0;border-radius:18px;display:block;background:#EFE4D3"></iframe>
+      </div>
+      <div>
+        <div style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#D7282F">ADDRESS</div>
+        <p style="margin:8px 0 20px;font:600 19px/1.4 'Plus Jakarta Sans',sans-serif">Plot No. 24, The Mall Road, Amarpur,<br>Nahan, Himachal Pradesh 173001</p>
+        <div style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#D7282F;margin-bottom:6px">OPENING HOURS</div>
+        <div style="border-top:1px solid rgba(26,22,20,.15)">
+          <sc-for list="{{ hours }}" as="h" hint-placeholder-count="7">
+            <div style="display:flex;justify-content:space-between;align-items:center;min-height:44px;padding:0 12px;border-bottom:1px solid rgba(26,22,20,.12);background:{{ h.bg }};font:{{ h.weight }} 16px/1 'Plus Jakarta Sans',sans-serif;border-radius:{{ h.radius }}">
+              <span>{{ h.day }}<span style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;margin-left:8px">{{ h.tag }}</span></span><span>{{ h.time }}</span>
+            </div>
+          </sc-for>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:20px">
+          <a href="tel:+917018100687" style="height:52px;border-radius:14px;border:1.5px solid #1A1614;color:#1A1614;text-decoration:none;display:flex;align-items:center;justify-content:center;font:700 16px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#1A1614;color:#FFF5E6">Call</a>
+          <button onClick="{{ waHello }}" style="height:52px;border-radius:14px;border:0;background:#25D366;color:#0B2E17;font:700 16px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer" style-hover="background:#3EE07C">WhatsApp</button>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Chilli+Bistro+Mall+Road+Nahan" target="_blank" rel="noopener" style="height:52px;border-radius:14px;background:#D7282F;color:#FFF5E6;text-decoration:none;display:flex;align-items:center;justify-content:center;font:700 16px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#A81E24;color:#FFF5E6">Directions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer data-screen-label="10 Footer" style="background:#1A1614;color:#FFF5E6;padding:44px 0 120px;overflow:hidden">
+  <div style="max-width:1280px;margin:0 auto;padding:0 16px">
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      <a href="https://instagram.com/chillibistro_nahan" target="_blank" rel="noopener" style="min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(255,245,230,.3);color:#FFF5E6;text-decoration:none;display:flex;align-items:center;font:600 15px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#FFF5E6;color:#1A1614">Instagram</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Chilli+Bistro+Mall+Road+Nahan" target="_blank" rel="noopener" style="min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(255,245,230,.3);color:#FFF5E6;text-decoration:none;display:flex;align-items:center;font:600 15px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#FFF5E6;color:#1A1614">Google Maps</a>
+      <a href="tel:+917018100687" style="min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(255,245,230,.3);color:#FFF5E6;text-decoration:none;display:flex;align-items:center;font:600 15px/1 'Plus Jakarta Sans',sans-serif" style-hover="background:#FFF5E6;color:#1A1614">+91 70181 00687</a>
+    </div>
+    <div style="font:700 clamp(64px,15vw,230px)/0.85 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.045em;color:#D7282F;margin:34px 0 4px;white-space:nowrap">Chilli Bistro</div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;padding-top:14px;border-top:1px solid rgba(255,245,230,.14);font:600 12px/1.6 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,245,230,.7)">
+      <span>© 2026 CHILLI BISTRO · THE MALL ROAD, NAHAN</span>
+      <span>Website by Yash Kashyap · <a href="mailto:yashkashyap1110@gmail.com" style="color:rgba(255,245,230,.85)">yashkashyap1110@gmail.com</a> · <a href="tel:+917876331526" style="color:rgba(255,245,230,.85)">787 633 1526</a></span>
+    </div>
+  </div>
+</footer>
+
+<button onClick="{{ waHello }}" aria-label="Chat on WhatsApp" style="position:fixed;right:16px;bottom:{{ fabBottom }};z-index:70;width:58px;height:58px;border-radius:50%;border:3px solid #1A1614;background:#25D366;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.3);transition:bottom .25s">
+  <svg width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="13" r="10" fill="#fff"></circle><polygon points="5,25 8,17 12,21" fill="#fff"></polygon><circle cx="10" cy="13" r="1.6" fill="#1F9D55"></circle><circle cx="14" cy="13" r="1.6" fill="#1F9D55"></circle><circle cx="18" cy="13" r="1.6" fill="#1F9D55"></circle></svg>
+</button>
+
+<sc-if value="{{ hasCart }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;left:12px;right:12px;bottom:12px;z-index:65;display:flex;justify-content:center;pointer-events:none">
+    <button onClick="{{ openSheet }}" style="pointer-events:auto;width:100%;max-width:560px;height:64px;border:0;border-radius:20px;background:#D7282F;color:#FFF5E6;display:flex;align-items:center;gap:12px;padding:0 10px 0 18px;cursor:pointer;box-shadow:0 12px 30px rgba(0,0,0,.35)">
+      <span style="display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left">
+        <span style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.9">{{ cartCountL }}</span>
+        <span style="font:700 24px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ cartTotalL }}</span>
+      </span>
+      <span style="flex:1"></span>
+      <span style="height:46px;padding:0 16px;border-radius:14px;background:#FFC531;color:#1A1614;display:flex;align-items:center;font:700 17px/1 'Clash Display','Plus Jakarta Sans',sans-serif;white-space:nowrap">View order →</span>
+    </button>
+  </div>
+</sc-if>
+
+<sc-if value="{{ sheet }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;inset:0;z-index:100;display:flex;align-items:flex-end;justify-content:center">
+    <div onClick="{{ closeSheet }}" style="position:absolute;inset:0;background:rgba(15,12,11,.6)"></div>
+    <div role="dialog" aria-label="Your order" style="position:relative;width:100%;max-width:560px;max-height:90vh;overflow:auto;background:#FFF5E6;color:#1A1614;border-radius:26px 26px 0 0;padding:10px 18px 22px">
+      <div style="width:44px;height:5px;border-radius:9px;background:rgba(26,22,20,.2);margin:0 auto 10px"></div>
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <h2 style="margin:0;font:700 clamp(2.25rem,4vw,3.5rem)/1.1 'Clash Display','Plus Jakarta Sans',sans-serif;letter-spacing:-.025em">Your order</h2>
+        <button onClick="{{ closeSheet }}" aria-label="Close" style="width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(26,22,20,.25);background:#fff;font:700 18px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">✕</button>
+      </div>
+      <div style="margin-top:10px;border-top:1px solid rgba(26,22,20,.15)">
+        <sc-for list="{{ cartItems }}" as="ci" hint-placeholder-count="2">
+          <div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid rgba(26,22,20,.12)">
+            <span style="flex-shrink:0;width:14px;height:14px;border:2px solid {{ ci.vegColor }};border-radius:3px;display:inline-flex;align-items:center;justify-content:center"><span style="width:6px;height:6px;border-radius:50%;background:{{ ci.vegColor }}"></span></span>
+            <div style="flex:1;min-width:0">
+              <div style="font:700 16px/1.25 'Plus Jakarta Sans',sans-serif">{{ ci.name }}</div>
+              <div style="font:400 14px/1.3 'Plus Jakarta Sans',sans-serif;color:#5E534C">{{ ci.sub }}</div>
+            </div>
+            <div style="display:flex;align-items:center;border:1.5px solid #1A1614;border-radius:12px;height:44px">
+              <button onClick="{{ ci.dec }}" aria-label="Remove one" style="width:40px;height:44px;border:0;background:transparent;font:800 20px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">−</button>
+              <span style="min-width:16px;text-align:center;font:700 16px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ ci.qty }}</span>
+              <button onClick="{{ ci.add }}" aria-label="Add one" style="width:40px;height:44px;border:0;background:transparent;font:800 20px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer;color:#1A1614">+</button>
+            </div>
+            <span style="min-width:64px;text-align:right;font:700 16px/1 'Plus Jakarta Sans',sans-serif">{{ ci.lineL }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:baseline;padding:14px 0">
+        <span style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase">TOTAL · {{ cartCountL }}</span>
+        <span style="font:700 32px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ cartTotalL }}</span>
+      </div>
+      <div style="font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;margin:4px 0 8px">HOW DO YOU WANT IT?</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+        <sc-for list="{{ orderTypes }}" as="ot" hint-placeholder-count="3">
+          <button onClick="{{ ot.pick }}" style="min-height:64px;padding:8px 6px;border-radius:14px;border:1.5px solid {{ ot.border }};background:{{ ot.bg }};color:{{ ot.fg }};cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px">
+            <span style="font:700 16px/1 'Clash Display','Plus Jakarta Sans',sans-serif">{{ ot.label }}</span><span style="font:500 11.5px/1.2 'Plus Jakarta Sans',sans-serif;opacity:.85">{{ ot.sub }}</span>
+          </button>
+        </sc-for>
+      </div>
+      <input value="{{ cName }}" onChange="{{ setCName }}" placeholder="{{ namePh }}" style="width:100%;margin-top:12px;height:52px;padding:0 14px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);font-size:16px;background:#fff;color:#1A1614">
+      <sc-if value="{{ isDelivery }}" hint-placeholder-val="{{ false }}">
+        <textarea value="{{ cAddr }}" onChange="{{ setCAddr }}" placeholder="Delivery address & landmark (e.g. near Chaugan ground)" rows="2" style="width:100%;margin-top:8px;padding:12px 14px;border-radius:14px;border:1.5px solid rgba(26,22,20,.25);font-size:16px;background:#fff;color:#1A1614;resize:vertical"></textarea>
+        <sc-if value="{{ showPh }}" hint-placeholder-val="{{ true }}"><div style="margin-top:6px;font:600 12px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#8E1B20">PLACEHOLDER: DELIVERY AREA &amp; MIN. ORDER — CONFIRM</div></sc-if>
+      </sc-if>
+      <sc-if value="{{ cHasErr }}" hint-placeholder-val="{{ false }}"><div style="margin-top:8px;font:600 14px/1.3 'Plus Jakarta Sans',sans-serif;color:#B3261E">{{ cErr }}</div></sc-if>
+      <button onClick="{{ sendOrder }}" style="width:100%;margin-top:14px;height:62px;border:0;border-radius:18px;background:#25D366;color:#0B2E17;font:700 21px/1 'Clash Display','Plus Jakarta Sans',sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px" style-hover="background:#3EE07C" style-active="transform:scale(.98)">Send order on WhatsApp</button>
+      <p style="margin:10px 0 0;text-align:center;font:500 13px/1.4 'Plus Jakarta Sans',sans-serif;color:#5E534C">No online payment. Pay at the counter or on delivery — cash or UPI.</p>
+    </div>
+  </div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showPlaceholders&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Demo&quot;},&quot;statusOverride&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;auto&quot;,&quot;open&quot;,&quot;closed&quot;],&quot;default&quot;:&quot;auto&quot;,&quot;tsType&quot;:&quot;'auto'|'open'|'closed'&quot;,&quot;section&quot;:&quot;Demo&quot;}}">
+const WA = '917018100687';
+const MENU = [
+ {id:'burgers',name:'Burgers & Wraps',subs:[
+  {name:'Burgers',cols:['With cheese','Without'],blurb:'Toasted buns, made fresh to order',items:`Veg Burger|99|79|Crispy aloo-veg patty, lettuce, house mayo
+Chicken Burger|109|89|Golden chicken patty, onion, tangy mayo
+Paneer Burger|149|129|Thick paneer slab, tandoori mayo, onion rings
+CB Special Veg Burger|149|139|Double veg patty, jalapeños and our secret sauce
+CB Special Non Veg Burger|169|149|The bestseller — loaded chicken, cheese and chilli mayo`},
+  {name:'Wraps',blurb:'Soft rolls, grilled on the tawa',items:`Aloo Tikki Wrap|109|Crispy tikki, onions, mint mayo
+Italian Veg Wrap|119|Herbed veggies, cheese, red sauce
+Italian Non Veg Wrap|139|Herbed chicken, cheese, red sauce
+Chilli Paneer Wrap|149|Indo-Chinese chilli paneer rolled up
+Cheese Corn Paneer Wrap|159|Sweet corn, paneer, melted cheese
+Mushroom Chilli Wrap|159|Sautéed mushrooms in chilli sauce
+Mexican Wrap|159|Beans, salsa, jalapeños, cheese
+Chicken Creamy Wrap|169|Chicken in creamy white sauce
+Chilli Chicken Wrap|169|Chilli chicken, spring onion, crunch
+Spicy Jalapeno Wrap|169|For those who like it really hot`}]},
+ {id:'pizza',name:'Pizza & Garlic Bread',subs:[
+  {name:'Exotic pizzas · veg',cols:['Medium 9"','Large 12"'],blurb:'Hand-stretched base, house sauce',items:`Margherita|229|329|Mozzarella with hand-made pizza sauce
+Veggie Delicious|299|419|Tomato, capsicum, onion, bell peppers
+Farm Ville|299|419|Mushroom, capsicum, onion, red paprika
+English Retreat|299|419|Paneer, capsicum, olives, tomato, paprika
+Veg Heaven|319|419|Paneer, corn, olives, bell pepper
+Achaari Pizza|329|439|Achari gravy, onion, paneer, capsicum
+Makhani Do Pyaaza Pizza|329|439|Makhani gravy, onion, paneer, capsicum
+CB Special Veg Pizza|339|449|Tomato, olives, capsicum, baby corn, jalapeños, mushroom`},
+  {name:'Exotic pizzas · non-veg',cols:['Medium 9"','Large 12"'],blurb:'Make it a meal for ₹99 more',items:`BBQ Chicken Classic Pizza|329|429|BBQ sauce, chicken salami, onions, black olives
+Butter Chicken Pizza|349|449|Butter chicken, onion, tomato, fresh cream
+Peri Peri Chicken Pizza|359|459|Grilled peri peri chicken, onion, capsicum, olives
+Hot Garlic Chicken Pizza|379|479|Spicy garlic sauce, chicken, mushroom, jalapeños
+CB Special Hawaiian Pizza|499|599|Capsicum, corn, olives, onion, chicken salami`},
+  {name:'Garlic breads',blurb:'Fresh out of the oven',items:`Plain Garlic Bread|89|
+Cheese Garlic Bread|99|
+Cheese Corn Garlic Bread|119|
+Corn & Paneer Garlic Bread|159|
+Chicken Garlic Bread|179|`}]},
+ {id:'pasta',name:'Pasta',subs:[
+  {name:'Pastas',blurb:'Penne, tossed to order',items:`Penne Alfredo (White Sauce)|239|Creamy, cheesy, herby
+Penne Arrabiata (Red Sauce)|239|Tangy tomato with chilli flakes
+Makhani Pasta|259|Desi makhani gravy meets penne
+Penne Rossa (Mix Sauce)|259|Half white, half red — best of both
+Pesto Pasta|279|Basil pesto and parmesan
+Achaari Pasta|279|Tangy achari masala twist
+Veggie Loaded Pasta|289|Loaded with seasonal veggies
+Tandoori Pasta|289|Smoky tandoori sauce
+Chicken Loaded Pasta|299|Grilled chicken, creamy sauce`}]},
+ {id:'bites',name:'Bites & Fries',subs:[
+  {name:'Bits & bites',blurb:'Crunchy things to share',items:`Zingy Parcel|79|Spiced veg in a crisp pastry
+Calzone Pocket|99|Folded pizza pocket, cheesy filling
+Paneer Parcel|99|Paneer masala in flaky pastry
+Cheese Corn Nuggets|119|Gooey corn-cheese centres
+Veggie Pops|119|Bite-size crispy veg
+Chicken Pops|129|Popcorn chicken with dip
+Fish Pops|129|Crumb-fried fish bites
+Chicken Nuggets|139|Classic nuggets, tomato dip`},
+  {name:'Fries',blurb:'Golden, crisp, salted right',items:`Salted Fries|89|
+Peri Peri Fries|99|Dusted with peri peri masala
+Masala Fries|129|Desi masala toss
+Cheesy Fries|139|Smothered in cheese sauce
+Tandoori Fries|149|Smoky tandoori mayo`}]},
+ {id:'maggi',name:'Maggi & Sandwiches',subs:[
+  {name:'Maggi',blurb:'Pahadi weather ka best friend',items:`Plain Maggi|39|
+Masala Maggi|49|
+Veg. Maggi|59|
+Corn & Cheese Maggi|69|
+Tadka Maggi|69|
+Paneer Maggi|89|`},
+  {name:'Sandwiches',blurb:'Grilled till crisp',items:`Vegetable Sandwich|89|
+Coleslaw Sandwich|89|
+Chutney Cheese Sandwich|99|
+Crispy Paneer Sandwich|109|
+Grilled Chicken Sandwich|139|`}]},
+ {id:'chinese',name:'Chinese',subs:[
+  {name:'Soups',blurb:'Hot, steaming, pahadi-approved',items:`Hot & Sour Soup|99|
+Veg. Manchow Soup|99|
+Lemon Coriander Soup|109|
+Veg. Talumein Soup|109|
+Sweet Corn Soup|119|
+Roasted Tomato Soup|119|
+Cream of Mushroom Soup|139|
+Chicken Hot & Sour Soup|159|
+Chicken Sweet Corn Soup|159|
+Chicken Manchow Soup|159|`},
+  {name:'Starters · veg',cols:['Dry','Gravy'],blurb:'Wok-tossed, Indo-Chinese style',items:`Spring Roll|139||
+Crispy Corn|179||
+Chilli Chana|189||
+Veg. Manchurian|209|229|
+Gobi Manchurian|219|239|
+Cheese Fingers|219||
+Honey Chilli Potato|229||Sticky, sweet and spicy
+Honey Chilli Cauliflower|229||
+Cheese Cigar Rolls|249||
+Paneer 65|259|279|
+Chilli Paneer|259|279|Our most-ordered starter
+Paneer Manchurian|269|289|`},
+  {name:'Starters · non-veg',cols:['Half','Full'],blurb:'Wok-tossed, Indo-Chinese style',items:`Chilli Chicken Pops||229|
+Salted Fish Pops||239|
+Chilli Fish Pops||239|
+Chilli Lemon Chicken|249|409|
+Chicken Manchurian|259|419|
+Chilli Chicken|299|419|
+Schezwan Chicken|299|419|
+Hot Garlic Chicken|299|449|
+Ginger Chicken|299|449|
+Chicken 65|299|419|
+Wild Chicken Wings||249|
+Chicken Lollipops||349|
+Nashville Fried Chicken||429|
+Chicken Drumsticks||359|
+Honey Lemon Fish||449|`},
+  {name:'Noodles',blurb:'Hakka-style, high flame',items:`Veg Hakka Noodles|139|
+Veg Schezwan Noodles|149|
+Veg Chilli Garlic Noodles|149|
+Veg. Mushroom Noodles|159|
+Veg. Cheese Noodles|159|
+Egg Noodles|159|
+Veg. Singapoori Noodles|169|
+Paneer Noodles|169|
+Chicken Noodles|179|
+Chicken Cheese Noodles|189|
+Chicken Singapoori Noodles|199|
+Chicken Chilli Garlic Noodles|199|`},
+  {name:'Fried rice',blurb:'Pairs with any gravy',items:`Veg. Fried Rice|109|
+Chilli Garlic Fried Rice|119|
+Mushroom Fried Rice|129|
+Egg Fried Rice|139|
+Chicken Fried Rice|149|
+Chicken Chilli Garlic Fried Rice|169|`}]},
+ {id:'tandoor',name:'Tandoor Se',subs:[
+  {name:'Veg starters',cols:['Half','Full'],blurb:'Charred in the clay oven',items:`Veg. Seekh Kebab||239|
+Tandoori Lemon Chaap||239|
+Hara Bhara Kebab||239|
+Tandoori Chaap||249|
+Malai Chaap||259|
+Achaari Chaap||259|
+Paneer Tikka|179|269|
+Afghani Chaap||269|
+Paneer Achaari Tikka|189|279|
+Mushroom Tikka||279|
+Paneer Malai Tikka|189|289|
+Hara Bhara Paneer Tikka|189|299|
+Lasooni Paneer Tikka|189|299|
+Stuffed Mushroom Tikka||309|
+Paneer Seekh Kebab||329|
+Veg. Tandoori Platter||449|A bit of everything — perfect for 3–4`},
+  {name:'Non-veg starters',cols:['Half','Full'],blurb:'Charred in the clay oven',items:`Chicken Tikka|219|349|
+Chicken Achaari Tikka|229|359|
+Chicken Lasooni Tikka|229|359|
+Chicken Kali Mirch|229|359|
+Chicken Zafrani Tikka|259|359|
+Haryali Chicken Tikka|229|359|
+Kalmi Chicken||359|
+Chicken Malai Tikka|239|369|
+Chicken Kastoori Tikka|239|369|
+Tandoori Chicken|299|499|Smoky, juicy, with onion and lemon
+Afghani Tikka|299|499|
+Haryali Chicken|299|499|
+Tawa Fish Tandoori||499|
+Jangli Chicken|349|599|
+Non-Veg. Tandoori Platter||549|The full tandoor experience`}]},
+ {id:'main',name:'Main Course',subs:[
+  {name:'Main course · veg',blurb:'Home-style gravies, rich and slow-cooked',items:`Jeera Aloo|199|
+Rajma Masala|229|
+Chana Masala|239|
+Mix Veg.|249|
+Kadhai Paneer|259|
+Palak Paneer|259|
+Matar Paneer|259|
+Mushroom Masala|259|
+Matar Mushroom|259|
+Soya Chaap Masala|259|
+Cheese Tomato|259|
+Veg. Jalfrezi|259|
+Shahi Paneer|269|
+Paneer Do Pyaaza|269|
+Paneer Bhurji|269|
+Malai Kofta|269|
+Paneer Lababdar|269|
+Paneer Patiala|269|
+Paneer Roganjosh|279|
+Paneer Pasanda|279|
+Paneer Butter Masala|289|
+Nargisi Kofta|289|
+Paneer Achaari|289|
+Peri Peri Paneer|299|`},
+  {name:'Dals',blurb:'Best with butter naan',items:`Yellow Dal Tadka|219|
+Dal Bukhara|229|
+Dal Tadka Handi|229|
+Dal Makhni|249|`},
+  {name:'Main course · non-veg',cols:['Half','Full'],blurb:'Home-style gravies, rich and slow-cooked',items:`Kadhai Chicken|349|529|
+Butter Chicken|349|529|
+Dhaniya Chicken|349|529|
+Chicken Achaari|349|529|
+Chicken Masala|349|529|
+Tawa Chicken|349|529|
+Chicken Handi|349|529|
+Chicken Roganjosh|349|529|
+Fish Curry||539|
+Homestyle Chicken|359|549|
+Rara Chicken|359|549|
+Murg Lababdar|359|549|
+Chicken Kali Mirch|359|549|
+Chicken Kohlapuri|359|549|
+Chicken Do Pyaaza|359|549|
+Chicken Peri Peri|369|589|
+Cream Chicken|369|589|
+CB Special Pahadi Chicken|379|589|Our hill-style house special
+Mutton Curry||589|
+Mutton Rara||599|
+Mutton Roganjosh||599|`},
+  {name:'Salads & chaats',blurb:'Fresh and tangy sides',items:`Onion Salad|69|
+Green Salad|79|
+Cucumber Salad|79|
+Aloo Chana Chaat|89|
+Peanut Masala|89|
+Corn Chaat|99|
+Salted Peanuts|99|
+Peanut Corn Chaat|109|
+CB Special Peanut Corn Paneer Chaat|139|`},
+  {name:'Raitas',blurb:'Cool down the spice',items:`Plain Curd|59|
+Boondi Raita|79|
+Mix Raita|79|
+Tomato Raita|79|
+Cucumber Raita|79|
+Onion Raita|79|
+Pineapple Raita|129|`}]},
+ {id:'rice',name:'Rice, Biryani & Thalis',subs:[
+  {name:'Lajawab rice',blurb:'Long-grain basmati',items:`Steamed Rice|119|
+Jeera Rice|129|
+Veg. Pulao|169|
+Hara Bhara Pulao|169|`},
+  {name:'Biryani',blurb:'Dum-cooked, layered, fragrant',items:`Chicken Biryani|379|
+Chicken Malabar Biryani|389|
+Chicken Hyderabadi Biryani|389|
+Mutton Biryani|519|`},
+  {name:'Thalis',blurb:'A full meal on one plate',items:`Economical Thali|119|Mix veg, dal, 3 butter tawa roti, rice, salad/curd
+Special Thali|159|Mix veg, dal, paneer, 3 tawa / 2 tandoori roti, raita, salad
+Delux Thali|209|Mix veg, dal makhni, paneer, raita, roti or garlic naan, salad, dessert
+Non-Veg Economical Thali|169|Curry chicken, 3 butter tawa roti / rice, salad/raita
+Non-Veg Special Thali|199|Homestyle chicken, paneer, roti, raita, salad
+Non-Veg Delux Thali|249|Homestyle chicken, dal, paneer, raita, roti or naan, salad, dessert`}]},
+ {id:'breads',name:'Breads & Paranthas',subs:[
+  {name:'Breads',blurb:'Straight from the tandoor',items:`Tawa Roti|12|
+Butter Tawa Roti|16|
+Tandoori Roti|16|
+Butter Tandoori Roti|22|
+Missi Roti|32|
+Naan|35|
+Butter Naan|40|
+Garlic Naan|45|
+Garlic Butter Naan|50|
+Tandoori Parantha|50|
+Chilli Garlic Naan|55|
+Mirchi Parantha|55|
+Lachha Parantha|55|
+Chilli Cheese Naan|60|
+Amritsari Kulcha|65|
+Cheese Naan|99|
+Butter Cheese Naan|105|
+Cheese Garlic Naan|115|
+Bread Basket|130|Tandoori roti, missi roti, butter naan, garlic naan`},
+  {name:'Paranthas',blurb:'With white butter and achaar',items:`Tandoori Aloo Parantha|55|
+Tandoori Pyaaz Parantha|55|
+Tandoori Gobi Parantha|65|
+Tandoori Paneer Parantha|75|
+Tandoori Mix Parantha|85|
+Tawa Aloo Parantha|50|
+Tawa Pyaaz Parantha|50|
+Tawa Mix Parantha|60|`}]},
+ {id:'snacks',name:'Snacks & Mini Meals',subs:[
+  {name:'Snacks',blurb:'Chai-time favourites',items:`Masala Omelette|89|
+Bread Omelette|99|
+Poori Bhaji|99|
+Pav Bhaji|99|
+Plain Chole Bhature|99|
+Egg Bhurji|109|
+Aloo Pakora|79|
+Pyaaz Pakora|89|
+Paneer Pakora|159|
+Mix Pakora|149|
+Paneer Chole Bhature|119|`},
+  {name:'Mini meal combos',blurb:'Value meals for one',items:`Chai + Bread Pakora|59|
+Rajma + Rice|109|
+Chole + Rice|109|
+Chicken Curry + Rice|119|
+Veg. Pulao + Plain Curd|119|
+Chole Bhature + Chai|119|
+Kadhai Paneer + Roti|119|
+Dal Fry + Tandoori Roti|119|
+Masala Chaap + Naan|129|
+Veg Manchurian + Fried Rice|149|
+Italian Veg Wrap + Cold Drink|149|
+Veg Burger + Cold Coffee|159|
+Crispy Paneer Sandwich + Chocolate Shake|199|`}]},
+ {id:'desserts',name:'Desserts',drink:true,subs:[
+  {name:'Get desserted',blurb:'Save room for this',items:`Gulab Jamun (2 pcs)|59|
+Vanilla Ice Cream|89|
+Choco Lava Cake|89|Warm gooey centre
+Hot Gulab Jamun|89|
+Hot Gulab Jamun with Ice Cream|109|The garam-thanda classic
+Gajar ka Halwa|109|`}]},
+ {id:'coffee',name:'Chai & Coffee',drink:true,subs:[
+  {name:'Chai',blurb:'Served in a kulhad',items:`Classic Chai|30|
+Ginger Chai|35|
+Elaichi Chai|35|
+Rose Chai|40|
+Kesar Chai|45|
+Chocolate Chai|45|
+Cinnamon Chai|45|`},
+  {name:'Hot coffee',blurb:'Freshly pulled',items:`Espresso|99|
+Cappuccino|109|
+Cafe Latte|119|
+Hazelnut Cappuccino|119|
+Chocolate Cappuccino|119|
+Americano|129|
+Strong Coffee|139|`},
+  {name:'Cold coffee',blurb:'Thick, frothy, Instagram-ready',items:`Classic Cold Coffee|129|
+Cold Coffee with Ice Cream|139|Topped with a vanilla scoop
+Choco Cold Coffee|139|
+Hazelnut Cold Coffee|139|
+Caramel Iced Latte|149|`},
+  {name:'Iced teas',blurb:'Fresh-brewed and chilled',items:`Lemon Iced Tea|129|
+Peach Iced Tea|129|
+Blueberry Iced Tea|139|
+Watermelon Iced Tea|139|
+Black Currant Tea|139|
+Mint Iced Tea|139|
+Pineapple Lemon Iced Tea|149|`}]},
+ {id:'shakes',name:'Shakes & Coolers',drink:true,subs:[
+  {name:'Shakes',blurb:'Blended thick with ice cream',items:`Vanilla Shake|129|
+Mango Shake|129|
+Chocolate Shake|129|
+Strawberry Shake|129|
+Kit-Kat Shake|149|
+Oreo Shake|149|
+5-Star Shake|159|
+Hazelnut Banana Shake|159|
+Choco Banana Shake|159|
+Wafer Shake|159|
+Peanut Butter Choco Shake|179|`},
+  {name:'Mocktails',blurb:'Fizzy, fruity, made fresh',items:`Fresh Lime Water|69|Desi nimbu paani
+Fresh Lime Soda|89|Classic nimbu chatka
+Apple Soda|139|Aperol-style apple fizz
+Sweet Sunrise|139|Passionate peach
+Miami Vice|139|Beachy pineapple
+Yoshi|139|Minty must-have
+Dark 'n Stormy|149|Bodacious blueberry
+Winking Watermelon|149|Watermelon fizzy
+Bubblegum Fizz|149|Bubblegum frenzy
+Mango Popper|149|Mango, fizz, pop
+Strawberry Spritz|149|Strawberry seltzer`},
+  {name:'Thandai & lassi',blurb:'Chilled, creamy, desi',items:`Sweet Thandai|59|
+Mango Thandai|69|
+Strawberry Thandai|69|
+Kesar Thandai|79|
+Rose Lassi|89|
+Sweet Lassi|89|
+Salted Lassi|89|
+Mango Lassi|99|
+Strawberry Lassi|99|`}]}
+];
+const SIGS = [
+ {key:'CB Special Non Veg Burger::With cheese',name:'CB Special Non-Veg Burger',img:'img/cut/burger.png',meta:'CONTINENTAL · NO.01',tag:'Best-seller',sticker:'Extra cheesy',spice:2,variant:'With cheese'},
+ {key:'Chilli Paneer::Dry',name:'Chilli Paneer',img:'img/cut/chillipaneer.png',meta:'CHINESE · NO.02',tag:'Must try',spice:3,variant:'Dry'},
+ {key:'Peri Peri Chicken Pizza::Medium 9"',name:'Peri Peri Chicken Pizza',img:'img/cut/pizza.png',meta:'PIZZA · NO.03',spice:3,variant:'Medium 9"'},
+ {key:'Tandoori Chicken::Half',name:'Tandoori Chicken',img:'img/cut/tandoori.png',meta:'TANDOOR SE · NO.04',spice:2,variant:'Half'},
+ {key:'Veg Hakka Noodles::',name:'Veg Hakka Noodles',img:'img/cut/noodles.png',meta:'CHINESE · NO.05',spice:1,variant:'Full plate'},
+ {key:'Cheesy Fries::',name:'Cheesy Fries',img:'img/cut/fries.png',meta:'BITES · NO.06',spice:1,variant:'Share plate',sticker:'Crave it'}
+];
+const COMBOS = [
+ {id:'duo',n:'2',name:'The Duo',price:549,worth:695,items:['2 × CB Special Burger (with cheese)','1 × Peri Peri Fries','2 × Classic Cold Coffee']},
+ {id:'squad',n:'4',name:'The Squad',price:1299,worth:1609,tag:'Most picked',items:['1 × Large Veggie Delicious Pizza','4 × Veg Burger (with cheese)','2 × Cheesy Fries','4 × Lemon Iced Tea']},
+ {id:'gang',n:'6',name:'The Whole Gang',price:2499,worth:3212,items:['2 × Large CB Special Veg Pizza','6 × Paneer Burger','1 × Chilli Paneer (dry)','3 × Masala Fries','6 × Classic Cold Coffee']}
+];
+const SPICE_LBL = ['', 'Mild', 'Medium', 'Chilli hot'];
+const NV = /chicken|mutton|fish|\begg\b|omelette|non.?veg|murg|salami/i;
+const HOT = /chilli|schezwan|peri peri|hot garlic|jangli|mirchi|jalapeno|kohlapuri|\b65\b|nashville|arrabiata/i;
+const MED = /tandoori|achaari|achari|kadhai|tikka|manchurian|masala|kali mirch|pahadi|rara|roganjosh|chaap|seekh|mexican|zingy|tadka|65/i;
+const inr = n => '₹' + Number(n).toLocaleString('en-IN');
+const ist = () => new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Kolkata'}));
+const pad = n => String(n).padStart(2, '0');
+
+class Component extends DCLogic {
+  state = {wide:false, tick:0, cart:{}, sheet:false, orderType:'Takeaway', cName:'', cAddr:'', cErr:'', q:'', vegOnly:false, active:'burgers',
+    bName:'', bPhone:'', bDate:'', bTime:'7:30 pm', bGuests:4, bErr:'', pGuests:20, pDate:'', pOcc:'Birthday', pName:''};
+
+  build() {
+    this.index = {};
+    this.menu = MENU.map(t => ({...t, subs: t.subs.map(s => ({...s, items: s.items.trim().split('\n').map(line => {
+      const a = line.split('|').map(x => x.trim());
+      const name = a[0];
+      const prices = s.cols ? [a[1], a[2]] : [a[1]];
+      const desc = (s.cols ? a[3] : a[2]) || '';
+      const nv = NV.test(name + ' ' + desc) || /non-veg/i.test(s.name);
+      let spice = 0;
+      if (!t.drink) spice = HOT.test(name) ? 3 : MED.test(name) ? 2 : 0;
+      const vars = prices.map((p, i) => p ? {label: s.cols ? s.cols[i] : '', price: +p} : null).filter(Boolean).map(v => {
+        const key = name + '::' + v.label;
+        this.index[key] = {key, name, label: v.label, price: v.price, nv};
+        return {...v, key};
+      });
+      return {name, desc, nv, spice, vars, search: (name + ' ' + desc + ' ' + s.name + ' ' + t.name).toLowerCase()};
+    })}))}));
+    COMBOS.forEach(c => { this.index['combo::' + c.id] = {key:'combo::' + c.id, name: c.name + ' combo (' + c.n + ' friends)', label:'', price:c.price, nv:false, combo:c}; });
+  }
+
+  componentDidMount() {
+    const mq = window.matchMedia('(min-width: 820px)');
+    this.mqf = () => this.setState({wide: mq.matches});
+    this.mqf(); mq.addEventListener('change', this.mqf); this.mq = mq;
+    this.timer = setInterval(() => this.setState(s => ({tick: s.tick + 1})), 60000);
+    this.onScroll = () => { if (this.raf) return; this.raf = requestAnimationFrame(() => { this.raf = 0; this.spy(); }); };
+    window.addEventListener('scroll', this.onScroll, {passive: true});
+    setTimeout(() => this.reveal(), 50);
+  }
+  componentWillUnmount() {
+    clearInterval(this.timer); window.removeEventListener('scroll', this.onScroll);
+    if (this.mq) this.mq.removeEventListener('change', this.mqf);
+    document.body.style.overflow = '';
+  }
+  reveal() {
+    if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'none'; io.unobserve(e.target); } }), {rootMargin: '0px 0px -6% 0px'});
+    document.querySelectorAll('[data-reveal]').forEach(el => {
+      if (el.getBoundingClientRect().top < window.innerHeight) return;
+      const d = +el.getAttribute('data-reveal') || 0;
+      el.style.opacity = '0'; el.style.transform = 'translateY(18px)';
+      el.style.transition = `opacity .6s ease ${d}ms, transform .6s ease ${d}ms`;
+      io.observe(el);
+    });
+  }
+  offset() { return this.state.wide ? 96 : 134; }
+  spy() { return;
+    let cur = null;
+    for (const t of this.menu || []) { const el = document.getElementById('cat-' + t.id); if (el && el.getBoundingClientRect().top - this.offset() <= 1) cur = t.id; }
+    if (!cur) cur = this.menu && this.menu[0].id;
+    if (cur && cur !== this.state.active) this.setState({active: cur}, () => this.centerTab(cur));
+  }
+  centerTab(id) {
+    const sc = document.getElementById('tabbar'), el = document.getElementById('tab-' + id);
+    if (sc && el) sc.scrollTo({left: el.offsetLeft - sc.clientWidth / 2 + el.clientWidth / 2, behavior: 'smooth'});
+  }
+  scrollToEl(el, off) { if (el) window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - off, behavior: 'smooth'}); }
+  goCat(id) {
+    this.setState({active: id, q: ''}, () => {
+      this.centerTab(id);
+      const el = document.getElementById('menu-list');
+      if (el && el.getBoundingClientRect().top < this.offset()) this.scrollToEl(el, this.offset() + 8);
+    });
+  }
+  wa(text) { window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(text), '_blank'); }
+  add(key) { const it = this.index[key]; if (!it) return; this.setState(s => { const c = {...s.cart}; c[key] = {...it, qty: (c[key] ? c[key].qty : 0) + 1}; return {cart: c}; }); }
+  dec(key) { this.setState(s => { const c = {...s.cart}; if (!c[key]) return null; const q = c[key].qty - 1; if (q <= 0) delete c[key]; else c[key] = {...c[key], qty: q}; const empty = !Object.keys(c).length; if (empty) document.body.style.overflow = ''; return {cart: c, sheet: empty ? false : s.sheet}; }); }
+  setSheet(v) { document.body.style.overflow = v ? 'hidden' : ''; this.setState({sheet: v, cErr: ''}); }
+  status() {
+    const o = this.props.statusOverride ?? 'auto';
+    const d = ist(); const m = d.getHours() * 60 + d.getMinutes();
+    let open = m >= 660 && m < 1350;
+    if (o === 'open') open = true; if (o === 'closed') open = false;
+    const soon = open && o === 'auto' && m >= 1320;
+    return {open, day: d.getDay(), label: open ? (soon ? 'Closing soon' : 'Open now') : 'Closed', sub: open ? 'till 10:30 pm' : 'opens 11:00 am',
+      dot: open ? (soon ? '#FFC531' : '#3DDC84') : '#FF5A4F', ring: open ? 'rgba(61,220,132,.25)' : 'rgba(255,90,79,.25)'};
+  }
+  fmtDate(iso) { if (!iso) return ''; const [y, m, d] = iso.split('-'); const wd = new Date(+y, +m - 1, +d).toLocaleDateString('en-IN', {weekday: 'short'}); return `${wd}, ${d}/${m}/${y}`; }
+
+  renderVals() {
+    if (!this.menu) this.build();
+    const S = this.state, cart = S.cart, wide = S.wide;
+    const showPh = this.props.showPlaceholders ?? true;
+    const st = this.status();
+    const qty = k => cart[k] ? cart[k].qty : 0;
+    const vegC = nv => nv ? '#B3261E' : '#1E8E3E';
+
+    const sigs = SIGS.map(s => { const it = this.index[s.key]; const q = qty(s.key);
+      return {...s, price: it ? it.price : '', hasTag: !!s.tag, hasSticker: !!s.sticker, vegColor: vegC(it && it.nv), vegLabel: it && it.nv ? 'Non-veg' : 'Veg',
+        chillies: Array.from({length: s.spice}, (_, i) => i), spiceLabel: SPICE_LBL[s.spice], qty: q, inCart: q > 0, notInCart: q === 0,
+        add: () => this.add(s.key), dec: () => this.dec(s.key)}; });
+
+    const combos = COMBOS.map((c, i) => { const k = 'combo::' + c.id; const q = qty(k);
+      return {...c, delay: i * 100, hasTag: !!c.tag, priceL: inr(c.price), worthL: inr(c.worth), saveL: inr(c.worth - c.price), qty: q, inCart: q > 0, notInCart: q === 0, add: () => this.add(k), dec: () => this.dec(k)}; });
+
+    const q = S.q.trim().toLowerCase(), vo = S.vegOnly;
+    let dishCount = 0;
+    const activeId = S.active || this.menu[0].id, exp = S.expanded || {}, LIMIT = 6;
+    const allSections = this.menu.map(t => {
+      const subs = t.subs.map(s => {
+        const key = t.id + '::' + s.name;
+        const all = s.items.filter(i => (!vo || !i.nv) && (!q || i.search.includes(q)));
+        const open = !!q || exp[key] || all.length <= LIMIT + 2;
+        const items = (open ? all : all.slice(0, LIMIT)).map(i => ({
+          name: i.name, desc: i.desc, hasDesc: !!i.desc, vegColor: vegC(i.nv), vegLabel: i.nv ? 'Non-veg' : 'Veg',
+          hasSpice: i.spice >= 2, chillies: Array.from({length: i.spice}, (_, n) => n), spiceLabel: SPICE_LBL[i.spice],
+          vars: i.vars.map(v => { const n = qty(v.key); return {label: v.label, price: v.price, qty: n, inCart: n > 0, notInCart: n === 0, add: () => this.add(v.key), dec: () => this.dec(v.key)}; })
+        }));
+        const canCollapse = !q && all.length > LIMIT + 2;
+        return {name: s.name, blurb: s.blurb, items, total: all.length, canCollapse, moreL: exp[key] ? 'Show less' : `Show all ${all.length} ${s.name.toLowerCase()}`,
+          toggle: () => this.setState(st => ({expanded: {...(st.expanded || {}), [key]: !(st.expanded || {})[key]}}))};
+      }).filter(s => s.total);
+      const count = subs.reduce((a, s) => a + s.total, 0);
+      return {id: t.id, name: t.name, subs, count};
+    }).filter(t => t.count);
+    const ai = allSections.findIndex(t => t.id === activeId);
+    const sections = q ? allSections : allSections.filter(t => t.id === activeId).length ? allSections.filter(t => t.id === activeId) : allSections.slice(0, 1);
+    const nextSec = !q && allSections[(ai < 0 ? 0 : ai) + 1];
+    this.menu.forEach(t => t.subs.forEach(s => dishCount += s.items.length));
+    const tabs = allSections.map(t => { const a = !q && t.id === (ai < 0 ? allSections[0] && allSections[0].id : activeId);
+      return {id: t.id, name: t.name, count: t.count, go: () => this.goCat(t.id), bg: a ? '#1A1614' : '#fff', fg: a ? '#FFC531' : '#1A1614', border: a ? '#1A1614' : 'rgba(26,22,20,.2)',
+        sideBg: a ? '#1A1614' : 'transparent', sideFg: a ? '#FFC531' : '#1A1614'}; });
+
+    const items = Object.values(cart);
+    const count = items.reduce((a, i) => a + i.qty, 0), total = items.reduce((a, i) => a + i.qty * i.price, 0);
+    const cartItems = items.map(i => ({name: i.name, sub: (i.label ? i.label + ' · ' : '') + inr(i.price) + ' each', qty: i.qty, lineL: inr(i.qty * i.price), vegColor: vegC(i.nv), add: () => this.add(i.key), dec: () => this.dec(i.key)}));
+    const OT = [{label: 'Dine-in', sub: 'At your table'}, {label: 'Takeaway', sub: 'Pick up'}, {label: 'Home delivery', sub: 'In Nahan'}];
+    const orderTypes = OT.map(o => { const a = o.label === S.orderType; return {...o, bg: a ? '#1A1614' : '#fff', fg: a ? '#FFF5E6' : '#1A1614', border: a ? '#1A1614' : 'rgba(26,22,20,.2)', pick: () => this.setState({orderType: o.label, cErr: ''})}; });
+    const isDelivery = S.orderType === 'Home delivery';
+
+    const sendOrder = () => {
+      if (isDelivery && !S.cAddr.trim()) { this.setState({cErr: 'Please add your delivery address.'}); return; }
+      const lines = items.map((i, n) => `${n + 1}. ${i.name}${i.label ? ' (' + i.label + ')' : ''} × ${i.qty} = ${inr(i.qty * i.price)}`);
+      const msg = ['Hi Chilli Bistro! New order from your website:', '', ...lines, '', `*Total: ${inr(total)}* (${count} item${count > 1 ? 's' : ''})`, `Order type: ${S.orderType}`,
+        S.cName.trim() ? `Name: ${S.cName.trim()}` : null, isDelivery ? `Address: ${S.cAddr.trim()}` : null, 'Payment: cash / UPI'].filter(x => x !== null).join('\n');
+      this.wa(msg);
+    };
+
+    const d = ist(); const todayIso = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    const slots = []; for (let m = 660; m <= 1320; m += 30) { const h = Math.floor(m / 60), mm = m % 60; slots.push(`${h > 12 ? h - 12 : h}:${pad(mm)} ${h >= 12 ? 'pm' : 'am'}`); }
+    const sendBooking = () => {
+      if (!S.bName.trim() || S.bPhone.replace(/\D/g, '').length < 10 || !S.bDate) { this.setState({bErr: 'Please add your name, a 10-digit phone number and a date.'}); return; }
+      this.setState({bErr: ''});
+      this.wa(`Hi Chilli Bistro! I'd like to book a table.\nName: ${S.bName.trim()}\nPhone: ${S.bPhone.trim()}\nDate: ${this.fmtDate(S.bDate)}\nTime: ${S.bTime}\nGuests: ${S.bGuests}`);
+    };
+    const sendParty = () => this.wa(`Hi Chilli Bistro! Party enquiry from your website.\nOccasion: ${S.pOcc}\nGuests: about ${S.pGuests}\nDate: ${S.pDate ? this.fmtDate(S.pDate) : 'Flexible'}${S.pName.trim() ? '\nName: ' + S.pName.trim() : ''}\nPlease share packages, set menu and decoration options.`);
+    const occasions = ['Birthday', 'Group party', 'Office / farewell', 'Kitty party'].map(o => { const a = o === S.pOcc; return {label: o, bg: a ? '#FFF5E6' : 'transparent', fg: a ? '#D7282F' : '#FFF5E6', pick: () => this.setState({pOcc: o})}; });
+
+    const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    const todayIdx = (st.day + 6) % 7;
+    const hours = DAYS.map((day, i) => ({day, time: '11:00 am – 10:30 pm', tag: i === todayIdx ? 'TODAY' : '', bg: i === todayIdx ? '#FFC531' : 'transparent', weight: i === todayIdx ? 700 : 500, radius: i === todayIdx ? '10px' : '0'}));
+
+    const nav = [['Signatures', 'signatures'], ['Combos', 'combos'], ['Menu', 'menu'], ['Book', 'book'], ['Visit', 'visit']];
+    return {
+      wide, narrow: !wide, showPh, st, heroW: wide ? 'min(520px, 48vw)' : '520px',
+      navLinks: nav.map(([label, id]) => ({label, go: e => { e.preventDefault(); this.scrollToEl(document.getElementById(id), 64); }})),
+      goTop: e => { e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); },
+      heroOrder: () => { if (count) this.setSheet(true); else this.wa("Hi Chilli Bistro! I'd like to place an order."); },
+      waHello: () => this.wa('Hi Chilli Bistro! '),
+      sigs, combos,
+      sigPrev: () => { const el = document.getElementById('sig-scroller'); if (el) el.scrollBy({left: -340, behavior: 'smooth'}); },
+      sigNext: () => { const el = document.getElementById('sig-scroller'); if (el) el.scrollBy({left: 340, behavior: 'smooth'}); },
+      dishCount, sections, tabs, noResults: sections.length === 0,
+      hasNext: !!nextSec, nextL: nextSec ? `Next: ${nextSec.name} →` : '', goNext: () => nextSec && this.goCat(nextSec.id),
+      searching: !!q, resultsL: q ? `${sections.reduce((a, s) => a + s.count, 0)} matches for “${S.q.trim()}”` : '',
+      q: S.q, setQ: e => this.setState({q: e.target.value}),
+      vegOnly: S.vegOnly, toggleVeg: () => this.setState(s => ({vegOnly: !s.vegOnly})),
+      vegBg: S.vegOnly ? '#E6F4EA' : '#fff', vegBorder: S.vegOnly ? '#1E8E3E' : 'rgba(26,22,20,.25)', vegTrack: S.vegOnly ? '#1E8E3E' : '#CFC6BD', vegKnob: S.vegOnly ? (wide ? '20px' : '17px') : '3px',
+      menuCols: wide ? '280px minmax(0,1fr)' : 'minmax(0,1fr)', itemCols: wide ? 'repeat(2,minmax(0,1fr))' : 'minmax(0,1fr)',
+      galCols: wide ? 'repeat(4,minmax(0,1fr))' : 'repeat(2,minmax(0,1fr))', galRow: wide ? '210px' : '150px', galA: wide ? 'span 2' : 'span 1',
+      hasCart: count > 0, cartCountL: `${count} ITEM${count === 1 ? '' : 'S'}`, cartTotalL: inr(total), fabBottom: count > 0 ? '88px' : '16px',
+      sheet: S.sheet && count > 0, openSheet: () => this.setSheet(true), closeSheet: () => this.setSheet(false),
+      cartItems, orderTypes, isDelivery, cName: S.cName, cAddr: S.cAddr, namePh: 'Your name (optional)',
+      setCName: e => this.setState({cName: e.target.value}), setCAddr: e => this.setState({cAddr: e.target.value, cErr: ''}),
+      cErr: S.cErr, cHasErr: !!S.cErr, sendOrder,
+      bName: S.bName, bPhone: S.bPhone, bDate: S.bDate, bTime: S.bTime, bGuests: S.bGuests, todayIso, slots,
+      setBName: e => this.setState({bName: e.target.value}), setBPhone: e => this.setState({bPhone: e.target.value}), setBDate: e => this.setState({bDate: e.target.value}), setBTime: e => this.setState({bTime: e.target.value}),
+      bGuestsDec: () => this.setState(s => ({bGuests: Math.max(1, s.bGuests - 1)})), bGuestsInc: () => this.setState(s => ({bGuests: Math.min(20, s.bGuests + 1)})),
+      bErr: S.bErr, bHasErr: !!S.bErr, sendBooking,
+      pGuests: S.pGuests, pDate: S.pDate, pName: S.pName, occasions, sendParty,
+      pGuestsDec: () => this.setState(s => ({pGuests: Math.max(10, s.pGuests - 5)})), pGuestsInc: () => this.setState(s => ({pGuests: Math.min(80, s.pGuests + 5)})),
+      setPDate: e => this.setState({pDate: e.target.value}), setPName: e => this.setState({pName: e.target.value}),
+      hours
+    };
+  }
+}
+</script>
+</body>
+</html>
